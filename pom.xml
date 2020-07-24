@@ -17,6 +17,20 @@
         <name>Saikocat</name>
         <url>https://github.com/saikocat/</url>
     </organization>
+    
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+ 
+    <scm>
+        <url>https://github.com/saikocat/gogoproto-java</url>
+        <connection>scm:git:git://github.com/saikocat/gogoproto-java.git</connection>
+        <developerConnection>scm:git:ssh://github.com:saikocat/gogoproto-java.git</developerConnection>
+    </scm>
 
     <prerequisites>
         <maven>3.8.0</maven>
