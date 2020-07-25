@@ -3,8 +3,21 @@ Generate Java package for the [Gogoproto](https://github.com/gogo/protobuf)
 protobuf (importing `gogoproto/gogo.proto`). Gofast doesn't support Java yet.
 
 # Usage
-* [IN PROGRESS] Using Maven repository
-* Using [Jitpack](https://jitpack.io) as resolver, and add `com.github.saikocat:gogoproto-java:1.0.0` as a dependency. [Full instructions](https://jitpack.io/#saikocat/gogoproto-java/1.0.0)
+* Directly link to [Sonatype](https://ossindex.sonatype.org/component/pkg:maven/com.github.saikocat/gogoproto-java@1.0.1)
+  and [Maven](https://repo1.maven.org/maven2/com/github/saikocat/gogoproto-java/)
+  * Maven:
+```
+<dependency>
+  <groupId>com.github.saikocat</groupId>
+  <artifactId>gogoproto-java</artifactId>
+  <version>1.0.1</version>
+</dependency>
+```
+  * Gradle:
+```
+implementation group: 'com.github.saikocat', name: 'gogoproto-java', version: '1.0.1'
+```
+* Using [Jitpack](https://jitpack.io) as resolver, and add `com.github.saikocat:gogoproto-java:1.0.1-jitpack` as a dependency. [Full instructions](https://jitpack.io/#saikocat/gogoproto-java/1.0.1-jitpack)
 
 # Reason for yet another gogoproto-java
 * As of the time of writing, there are 4 projects on Maven Central. 1 has extra
