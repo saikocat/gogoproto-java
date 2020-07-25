@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/saikocat/gogoproto-java.svg)](https://jitpack.io/#saikocat/gogoproto-java)
+
 # Gogoproto Java Packaging
 Generate Java package for the [Gogoproto](https://github.com/gogo/protobuf)
 protobuf (importing `gogoproto/gogo.proto`). Gofast doesn't support Java yet.
@@ -5,7 +7,7 @@ protobuf (importing `gogoproto/gogo.proto`). Gofast doesn't support Java yet.
 # Usage
 * Directly link to [Sonatype](https://ossindex.sonatype.org/component/pkg:maven/com.github.saikocat/gogoproto-java@1.0.1)
   and [Maven](https://repo1.maven.org/maven2/com/github/saikocat/gogoproto-java/)
-  * Maven:
+    * Maven:
 ```
 <dependency>
   <groupId>com.github.saikocat</groupId>
@@ -13,7 +15,7 @@ protobuf (importing `gogoproto/gogo.proto`). Gofast doesn't support Java yet.
   <version>1.0.1</version>
 </dependency>
 ```
-  * Gradle:
+    * Gradle:
 ```
 implementation group: 'com.github.saikocat', name: 'gogoproto-java', version: '1.0.1'
 ```
