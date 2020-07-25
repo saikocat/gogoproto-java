@@ -13,10 +13,9 @@
         <grpc.version>1.28.1</grpc.version>
     </properties>
 
-    <organization>
-        <name>Saikocat</name>
-        <url>https://github.com/saikocat/</url>
-    </organization>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Gogoproto Java Packaging</description>
+    <url>https://github.com/saikocat/gogoproto-java</url>
 
     <licenses>
         <license>
@@ -31,6 +30,14 @@
         <connection>scm:git:git://github.com/saikocat/gogoproto-java.git</connection>
         <developerConnection>scm:git:ssh://github.com:saikocat/gogoproto-java.git</developerConnection>
     </scm>
+
+    <developers>
+        <developer>
+            <name>Duc Hoa, Nguyen</name>
+            <email>saikocatz@gmail.com</email>
+            <url>https://github.com/saikocat</url>
+        </developer>
+    </developers>
 
     <prerequisites>
         <maven>3.5.0</maven>
