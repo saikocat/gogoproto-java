@@ -1,3 +1,10 @@
+.classpath
+.metals/
+.mvn/
+.project
+.settings/
+target/
+
 # Compiled class file
 *.class
 
